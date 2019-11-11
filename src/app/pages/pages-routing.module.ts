@@ -15,18 +15,7 @@ const routes: Routes = [{
       path: 'dashboard',
       component: ECommerceComponent,
     },
-    {
-      path: 'matching',
-      component: SmartTableComponent,
-    },
-    {
-      path: 'fixedrv',
-      component: SmartTableComponent,
-    },
-    {
-      path: 'sav',
-      component: SmartTableComponent,
-    },
+
     {
       path: 'layout',
       loadChildren: () => import('./layout/layout.module')

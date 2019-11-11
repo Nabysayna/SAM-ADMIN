@@ -4,23 +4,23 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Souscrivant',
     icon: 'shopping-cart-outline',
-    link: '/pages/iot-dashboard',
+    link: '/pages/ECommerceComponent',
     home: true,
   },
   {
     title: 'Matching',
     icon: 'grid-outline',
-    link: '/pages/tables/smart-table',
+    link: '/pages/iot-dashboard',
   },
   {
     title: 'FixedRV',
     icon: 'home-outline',
-    link: '/pages/tables/smart-table',
+    link: '/pages/iot-dashboard',
   },
   {
     title: 'SAV', 
     icon: 'keypad-outline',
-    link: '/pages/tables/smart-table',
+    link: '/pages/iot-dashboard',
   },
   /*{
     title: 'FEATURES',

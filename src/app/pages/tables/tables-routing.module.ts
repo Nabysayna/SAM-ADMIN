@@ -7,7 +7,7 @@ import { TreeGridComponent } from './tree-grid/tree-grid.component';
 
 const routes: Routes = [{
   path: '',
-  component: TablesComponent,
+  component: SmartTableComponent,
   children: [
     {
       path: 'smart-table',
